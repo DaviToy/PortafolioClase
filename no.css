@@ -1,0 +1,114 @@
+.fondo{
+   
+   background-image: url("./minion.jpg");
+   background-size: contain;
+}
+
+.caja-flex-padre{
+    display: inline-block;
+    flex-direction: initial;
+    justify-content: space-around;
+    width: 15%;
+    height: 10vh;
+    background-color: rgb(90, 182, 162);
+}
+
+.caja2{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+   
+    justify-content: space-around;
+    
+    background-color: aqua;
+
+}
+h1{
+    display: inline;
+    width: 20%;
+
+    
+
+}
+h2{
+    display: inline;
+    width: 20%;
+    background-color: red;
+
+}
+h3{
+    display: inline;
+
+}
+
+.caja3{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+
+.hijo3-1{
+    text-align: center;
+    background-color: blue;
+    
+    
+}
+
+.hijo3-2{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.caja4{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+}
+.hijo4-1{
+    width: 10%;
+    background-color: beige;
+}
+.hijo4-2{
+    width: 10%;
+    background-color: beige;
+}
+.hijo4-3{
+    width: 10%;
+    background-color: beige;
+}
+
+.caja5{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+
+}
+.img1{
+    width: 10%;
+
+}
+.img2{
+    width: 10%;
+
+}
+.img3{
+    width: 10%;
+
+}
